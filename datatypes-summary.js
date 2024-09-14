@@ -45,3 +45,28 @@ const myFunction = function(){
 console.log(typeof myFunction);
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+// Stack (Primitive), Heap (Non-Primitive)
+
+let myYoutubename = "Saiko_Gaming"
+
+let anothername = myYoutubename;
+anothername = "chaiaurcode"
+                             // ismain original value change nahi hoga kyunki change uske copy main ho raha hai original ke
+console.log(myYoutubename);
+console.log(anothername);
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+let userTwo = userOne;
+
+userTwo.email = "shadab@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
