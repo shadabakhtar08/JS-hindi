@@ -26,3 +26,5 @@ JsUser.email = "akhtarshadab@chatgpt.com"
 Object.freeze(JsUser)
 JsUser.email = "akhtarshadab@microsoft.com"
 console.log(JsUser); 
+
+
