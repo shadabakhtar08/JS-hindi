@@ -17,15 +17,25 @@ const JsUser = {
     lastLoginDays: ["Monday", "Saturday"]
 }    
 
-console.log(JsUser.email);
-console.log(JsUser["email"]);
-console.log(JsUser["full name"]);
-console.log(JsUser[mySym]);
+// console.log(JsUser.email);
+// console.log(JsUser["email"]);
+// console.log(JsUser["full name"]);
+// console.log(JsUser[mySym]);
 
 JsUser.email = "akhtarshadab@chatgpt.com"
-Object.freeze(JsUser)
+// Object.freeze(JsUser)
 JsUser.email = "akhtarshadab@microsoft.com"
-console.log(JsUser); 
+// console.log(JsUser); 
 
+JsUser.greeting = function(){
+    console.log("Hello Js User");
+}
 
+JsUser.greetingTwo = function(){
+    console.log(`Hello Js User, ${this.name}`);
+}
 
+console.log(JsUser.greeting());
+console.log(JsUser.greetingTwo());
+
+// to access value we generally use dot . but in some condition we have to use square bracket []
