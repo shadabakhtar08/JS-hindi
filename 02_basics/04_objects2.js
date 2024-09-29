@@ -45,13 +45,43 @@ const users = [
 ]
 
 users[1].email
-console.log(tinderUser);
+// console.log(tinderUser);
 
 
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
 
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign
 
-console.log(tinderUser.hasOwnProperty('isLoggedIn')); //ye batata hai ki uske paas ye wala property hai ya nahi hai
+// console.log(tinderUser.hasOwnProperty('isLoggedIn')); //ye batata hai ki uske paas ye wala property hai ya nahi hai
+
+
+const course = {
+    coursename: "js in hindi",
+    price: "999",
+    courseInstructor: "shadab"
+}
+
+// course.courseInstructor
+
+const {courseInstructor: instructor} = course
+
+// console.log(courseInstructor);
+console.log(instructor);
+
+// apna kaam kisi or pe daal dena usi ko API bolte hain 
+
+// {
+//     "name": "shadab",
+//     "coursename": "js in hindi",
+//     "price": "free"
+// }
+
+
+// kai baar api array ke format main bhi milta hai
+[
+    {},
+    {},
+    {}
+]
