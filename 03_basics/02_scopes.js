@@ -57,7 +57,3 @@ addTwo(5)  //yahan error aayega kyunki is wale way main declaration se pehle aap
 const addTwo = function(num){
     return num + 2
 }
-
-
-
-
