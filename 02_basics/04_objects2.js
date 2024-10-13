@@ -42,6 +42,10 @@ const users = [
         id: 1,
         email: "akhtar@gmail.com"
     },
+    {
+        id: 1,
+        email: "akhtar@gmail.com"
+    },
 ]
 
 users[1].email
