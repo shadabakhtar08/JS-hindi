@@ -14,6 +14,7 @@
 // }
 
 let score = 11
+// do while main ek baar code run hoga uske baad condition check karega ki true hai ya false
 
 do {
     console.log(`Score is ${score}`);
